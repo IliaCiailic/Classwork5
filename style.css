@@ -1,0 +1,57 @@
+img{
+    Width:90%;
+}
+div p {
+    color:purple;
+}
+.content + .footer{
+    font-style:italic;
+}
+.header > h2 {
+    font-size:40px;
+    color:red;
+}
+
+
+
+
+a:link {
+  color: #FF0000;
+}
+a:visited {
+  color: purple;
+}
+
+.header::first-letter {
+  color: Purple;
+  font-size: 50px;
+}
+p::first-line {
+  
+  font-family:Helvetica;
+  font-size:30px;
+}
+
+
+
+
+/** here are some paddings and margines for images**/
+img:active{
+  filter:blur(2px);
+}
+.invert{
+    filter:invert(100%);
+}
+img:hover{
+    filter:hue-rotate(1005deg);
+}
+
+body{
+    background-color:#ff00ff;
+}
+div {
+  border-style: dotted;
+  border-color: Purple;
+  padding:20px;
+  margin:20px;
+}
